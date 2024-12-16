@@ -1,49 +1,32 @@
-<div id="stage" class="perspective-on">
-  <div id="rotate">
-    <div id="ring" class="ring">
-      <div class="slot">
-        <p>0</p>
-      </div>
-      <div class="slot">
-        <p>1</p>
-      </div>
-      <div class="slot">
-        <p>2</p>
-      </div>
-      <div class="slot">
-        <p>3</p>
-      </div>
-      <div class="slot">
-        <p>4</p>
-      </div>
-      <div class="slot">
-        <p>5</p>
-      </div>
-      </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slot Machine</title>
+    <!-- 외부 CSS 연결 -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="stage" class="perspective-on">
+        <div id="rotate">
+            <div id="ring" class="ring">
+                <div class="slot"><p>0</p></div>
+                <div class="slot"><p>1</p></div>
+                <div class="slot"><p>2</p></div>
+                <div class="slot"><p>3</p></div>
+                <div class="slot"><p>4</p></div>
+                <div class="slot"><p>5</p></div>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
-
-<!-- <div class="slot">
-  <div class="slot-machine">
-    <div class="slot-square">
-      <div class="slot-square__frame"></div>
-      <img src="https://picsum.photos/id/1080/144/118" alt="" class="slot-square__img js-slot-img">
-      <img src="https://picsum.photos/id/102/144/118" alt="" class="slot-square__img js-slot-img">
-      <img src="https://picsum.photos/id/1011/144/118" alt="" class="slot-square__img js-slot-img">
-       <img src="https://picsum.photos/id/1020/144/118" alt="" class="slot-square__img js-slot-img">
-      <div class="slot-square__light"></div>
-    </div>
-    <div class="slot-square">
-      <div class="slot-square__frame"></div>
-      <img src="https://picsum.photos/id/1038/144/118" alt="" class="slot-square__img js-slot-img">
-      <img src="https://picsum.photos/id/1040/144/118" alt="" class="slot-square__img js-slot-img">
-      <img src="https://picsum.photos/id/1055/144/118" alt="" class="slot-square__img js-slot-img">
-       <img src="https://picsum.photos/id/1033/144/118" alt="" class="slot-square__img js-slot-img">
-    </div>
-  </div>
-  
-  <div class="slot-launch">
-    <button type="button" class="slot-launch__btn">Et ça tourne !</button>
-  </div>
-</div>-->
+    <!-- jQuery 라이브러리 -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- TweenMax 라이브러리 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <!-- 외부 JS 연결 -->
+    <script src="script.js"></script>
+</body>
+</html>
